@@ -9,6 +9,49 @@
     
 </head>
 <body>
+    <section class="color-changer-project">
+        <div class="color-app-holder">
+            <div class="left-holder">
+                <!-- Method One Using Regular JS Function to Change BGColor -->
+                <!-- <div class="circle red" onclick=popsomething()></div> -->
+                <!-- <div class="circle red" onclick=ChangeToOrange()></div>
+                <div class="circle orange" id="orangediv" onclick=ChangeToTomato()></div>
+                <div class="circle blue" onclick=ChangeToSkyblue()></div> -->
+
+                <!-- Method 2 Using JS Parameter & Argument to Change BGColor -->
+                <div class="circle red" onclick='ChangeColor("#FFA800")'></div>
+                <div class="circle orange" id="orangediv" onclick='ChangeColor("Tomato")'></div>
+                <div class="circle blue" onclick='ChangeColor("Skyblue")'></div>
+                
+            </div>
+            <div class="right-holder" id="right-holder"></div>
+
+        </div>
+
+
+    </section>
+
+    <section class="working-with-box-model">
+        <div class="parent1">
+
+            <div class="box-model-child"></div>
+            <div class="box-model-child"></div>
+
+        </div>
+
+        <div class="parent2">
+
+            <div class="box-model-child parent2-child"></div>
+            <!-- <div class="box-model-child"></div> -->
+
+        </div>
+
+        
+
+    </section>
+
+
+
     <script src="main.js"></script>
 </body>
 </html>
